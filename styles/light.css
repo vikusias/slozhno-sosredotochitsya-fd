@@ -14,24 +14,22 @@
   --page-bg-color: var(--almost-white-bg);
   --header-text-bg-color: var(--basic-pink);
   --header-text-color: var(--almost-black);
-  --question-bg-color:  var(--almost-white-bg);
-  --question-color:  var(--almost-black);
+  --question-bg-color: var(--almost-white-bg);
+  --question-color: var(--almost-black);
   --answer-title-bg-color: var(--basic-pink);
   --answer-title-color: var(--almost-black);
   --answer-text-bg-color: var(--almost-white-bg);
   --answer-text-color: var(--almost-black);
-  --advice-title-bg-color:  var(--basic-pink) ;
+  --advice-title-bg-color: var(--basic-pink);
   --advice-title-color: var(--almost-black);
   --button-color: var(--almost-black);
-  --border-color-opacity: #32312D66;
-  --background-image:  url("../images/cover-image-light.png");
+  --border-color-opacity: #32312d66;
+  --background-image: url("../images/cover-image-light.png");
   --deco-color: var(--almost-black);
-
 }
 
 /*.theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -40,19 +38,18 @@
     --page-bg-color: var(--almost-white-bg);
     --header-text-bg-color: var(--basic-pink);
     --header-text-color: var(--almost-black);
-    --question-bg-color:  var(--almost-white-bg);
-    --question-color:  var(--almost-black);
+    --question-bg-color: var(--almost-white-bg);
+    --question-color: var(--almost-black);
     --answer-title-bg-color: var(--basic-pink);
     --answer-title-color: var(--almost-black);
     --answer-text-bg-color: var(--almost-white-bg);
     --answer-text-color: var(--almost-black);
-    --advice-title-bg-color:  var(--basic-pink) ;
+    --advice-title-bg-color: var(--basic-pink);
     --advice-title-color: var(--almost-black);
     --button-color: var(--almost-black);
-    --border-color-opacity: #32312D66;
-    --background-image:  url("../images/cover-image-light.png");
+    --border-color-opacity: #32312d66;
+    --background-image: url("../images/cover-image-light.png");
     --deco-color: var(--almost-black);
-
   }
 }
 

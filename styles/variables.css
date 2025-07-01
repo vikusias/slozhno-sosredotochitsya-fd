@@ -2,22 +2,28 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root {
-  --basic-pink: #FF8DCB;
-  --title-pink: #FFC2E6;
-  --almost-white-bg: #FFF1F7;
-  --real-red: #ff0070;
-  --approximately-black: #000028;
-  --almost-black: #353430;
+@media (prefers-color-scheme: light), (prefers-color-scheme: dark) {
+  :root {
+    --color-basic-pink: #ff8dcb;
+    --color-title-pink: #ffc2e6;
+    --color-almost-white-bg: #fff1f7;
+    --color-real-red: #ff0070;
+    --color-approximately-black: #000028;
+    --color-almost-black: #353430;
 
-  --regular-font-size: 18px;
-  --regular-line-height: 100%;
-  --regular-gap: 10px;
-  --decoration-gap: clamp(10px , 2.65vw , 20px);
-  --min-height: 668px;
-  --header-margin-left: min(10px , 20px - 2.6vw);
-  --section-child-margin: 40px;
-  --project-font-family: "IBM Plex Mono", "Arial", sans-serif;
-  --corner-thickness: 1px;
-  --rec_empty_x_pos: 30px;
+    --font-regular-size: 18px;
+    --font-regular-line-height: 1;
+    --font-project-family: "IBM Plex Mono", "Arial", sans-serif;
+
+    --spacing-regular-gap: 10px;
+    --spacing-decoration-gap: clamp(10px, 2.65vw, 20px);
+    --spacing-section-child-margin: 40px;
+
+    --size-min-height: 668px;
+    --size-header-margin-left: min(10px, calc(20px - 2.6vw));
+
+    --thickness-corner: 1px;
+    --position-rec-empty-x: 30px;
+    --rec_empty_x_pos: 35px;
+  }
 }
