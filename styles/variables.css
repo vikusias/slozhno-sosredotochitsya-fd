@@ -2,28 +2,18 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-@media (prefers-color-scheme: light), (prefers-color-scheme: dark) {
-  :root {
-    --color-basic-pink: #ff8dcb;
-    --color-title-pink: #ffc2e6;
-    --color-almost-white-bg: #fff1f7;
-    --color-real-red: #ff0070;
-    --color-approximately-black: #000028;
-    --color-almost-black: #353430;
 
-    --font-regular-size: 18px;
-    --font-regular-line-height: 1;
-    --font-project-family: "IBM Plex Mono", "Arial", sans-serif;
-
-    --spacing-regular-gap: 10px;
-    --spacing-decoration-gap: clamp(10px, 2.65vw, 20px);
-    --spacing-section-child-margin: 40px;
-
-    --size-min-height: 668px;
-    --size-header-margin-left: min(10px, calc(20px - 2.6vw));
-
-    --thickness-corner: 1px;
-    --position-rec-empty-x: 30px;
-    --rec_empty_x_pos: 35px;
-  }
+:root {
+  --heading-color: #db00ff;
+  --accent-color: #ff0070;
+  --text-title: #000028;
+  --text-heading: #ff0070;
+  --text-color: #f1b2ce;
+  --decorated-zone: #ff0070;
+  --decorated-zone-hover: rgba(255, 0, 112, 0.4);
+  --background-color: #000028;
+  --font-family: "IBM Plex Mono";
+  --font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --font-size-small: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --background-image: url(../images/cover-image-dark.png);
 }
