@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --desktop-title-decor: #ff0070;
+  --button-color: var(--almost-black);
   --heading-color: #ffc2e6;
   --accent-color: #ff8dcb;
   --text-title: #353430;
@@ -26,6 +27,7 @@
     --desktop-title-decor: #ff0070;
     --heading-color: #ffc2e6;
     --accent-color: #ff8dcb;
+    --button-color: var(--almost-black);
     --text-title: #353430;
     --text-heading: #353430;
     --text-color: #353430;
@@ -34,11 +36,19 @@
     --background-color: #fff1f7;
     --background-image: url(../images/cover-image-light.png);
   }
-  .theme-light .rec::before {
+  .rec::before {
     display: none;
   }
 
-  .theme-light .rec::after {
+  .rec::after {
     display: none;
   }
+}
+
+.theme-light .rec::before {
+  display: none;
+}
+
+.theme-light .rec::after {
+  display: none;
 }
