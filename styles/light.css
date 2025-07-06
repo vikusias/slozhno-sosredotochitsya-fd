@@ -34,8 +34,11 @@
     --background-color: #fff1f7;
     --background-image: url(../images/cover-image-light.png);
   }
+  .theme-light .rec::before {
+    display: none;
+  }
 
-  .theme_auto .rec {
-    visibility: hidden;
+  .theme-light .rec::after {
+    display: none;
   }
 }
